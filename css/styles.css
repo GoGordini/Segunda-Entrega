@@ -121,7 +121,6 @@ nav li a:hover {
     background-image: url("../images/backgroundimage.jpg");
     background-size: cover;
     background-repeat:no-repeat;
-    background-color: aqua;
     background-position: top;
     padding-right: 1.75rem;
     font-weight: bold;
