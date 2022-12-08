@@ -1,7 +1,8 @@
 /* No consigo que la imagen de fondo cubra el alto de la pantalla en desktop. Siempre queda para scrolear. Si la achico, queda cortada, no mantiene la escala digamos.
 El otro problema es que desde que dejé una única barra de navegación como me sugirieron en la corrección, cuando pongo home me lleva al home pero no se ve la navegación, hay que scrolear para ver la barra de navegación. Supongo que tiene que ver con el problema anterior.
 Se ve en la versión mobile como debería verse en la desktop.
-El plan es hacer todo otra vez, mobile first con bootstrap. Sospecho que ahí se acomodará.*/
+El plan es hacer todo otra vez, mobile first con bootstrap. Sospecho que ahí se acomodará.
+Tuve problemas con la imagen en github pages. Aparentemente no toma nombres con mayúscula. Sin comentarios!*/
 
 .contenedor {
     max-width: 1200px;
@@ -117,7 +118,7 @@ nav li a:hover {
 
 #home {
     text-align: right;
-    background-image: url("../images/ella.jpg");
+    background-image: url("../images/backgroundimage.jpg");
     background-size: cover;
     background-repeat:no-repeat;
     background-color: aqua;
