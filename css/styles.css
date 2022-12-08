@@ -79,6 +79,28 @@ nav {
     .fila {
         display: flex;
     }
+    .contacto {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 20px;
+    }
+    
+    .contacto img {
+        grid-column: 1/2;
+        grid-row: 1/4;
+        padding: 0px 6px;
+    }
+    
+    .contacto form {
+        grid-column: 2/4;
+        grid-row: 1/2;
+    }
+    
+    .contacto iframe {
+        grid-column: 2/4;
+        grid-row: 2/4;
+    }
     
 }
 
@@ -243,28 +265,6 @@ a {
     font-size: 1.25rem;
 }
 
-.contacto {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    gap: 20px;
-}
-
-.contacto img {
-    grid-column: 1/2;
-    grid-row: 1/4;
-    padding: 0px 6px;
-}
-
-.contacto form {
-    grid-column: 2/4;
-    grid-row: 1/2;
-}
-
-.contacto iframe {
-    grid-column: 2/4;
-    grid-row: 2/4;
-}
 
 form {
     display: block;
@@ -399,28 +399,8 @@ fondo_blanco {
         flex-basis: 100%;
         /*object-fit:cover*/
     }
-
-    .contacto {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(3, 1fr);
-        gap: 20px;
-    }
-    
-    .contacto img {
-        grid-column: 1/2;
-        grid-row: 1/2;
-        padding: 0px 6px;
-    }
-    
-    .contacto form {
-        grid-column: 1/2;
-        grid-row: 2/3;
-    }
-    
-    .contacto iframe {
-        grid-column: 1/2;
-        grid-row: 3/4;
-    }
-    
+input {
+    display: block;
+    width: 95%;
+}
 }
