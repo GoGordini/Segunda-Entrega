@@ -95,9 +95,10 @@ nav li a:hover {
 
 #home {
     text-align: right;
-    background-image: url("../images/backgroundimage.jpg");
+    background-image: url("../images/ella.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat:no-repeat;
+    background-color: aqua;
     background-position: top;
     padding-right: 1.75rem;
     font-weight: bold;
@@ -399,5 +400,27 @@ fondo_blanco {
         /*object-fit:cover*/
     }
 
-
+    .contacto {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 20px;
+    }
+    
+    .contacto img {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        padding: 0px 6px;
+    }
+    
+    .contacto form {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    
+    .contacto iframe {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+    
 }
